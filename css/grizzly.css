@@ -1,0 +1,132 @@
+body {
+	font-family: 'Cinzel Decorative', cursive;
+	text-align: center;
+	font-size: 30px;
+	color: #ffffff;
+	/* set up a background image */
+	background-image: url(../images/grizzlybear.jpg);
+	/* the follow is the code to have the image display as a full page */
+	background-position: center;
+	background-attachment: fixed;
+	-webkit-background-size: cover; /* the next 3 lines are "browser prefixes", they are necessary to include for CSS3 techniques */
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+
+}
+
+div.box
+  {
+  width: 800px;
+  height: auto;
+  margin: 0px auto;
+  background-color: rgba(102, 153, 102, 0.9);
+/*  opacity:0.8;
+  filter:alpha(opacity=60); /* For IE8 and earlier */
+  }
+
+ div.intro{
+ 	width: 800px;
+ 	margin: 0px auto;
+ }
+
+.titles {
+	width: 800px;
+	margin: 0px auto;
+	clear: both;
+}
+
+a:link {
+	color: #cccc00;
+	text-decoration:none;
+}  
+
+a:visited {
+	color: #ffffff;
+	text-decoration:none;
+}
+
+#container .intro {
+	font-family:'Cinzel Decorative', cursive;
+	text-shadow: 1px 1px 0px #eee, 2px 2px 0px #707070;	
+	margin-top: 10px;
+	letter-spacing: 1px;
+	font-size: 36px;
+}
+
+#container .titles { 
+	font-family: 'Lato', sans-serif;
+	font-size: 26px;
+}
+
+#container {
+	width: 1000px;
+	margin: 0px auto;
+	color: #ffffff;
+	font-family:'scratch_my_backregular', cursive;
+	font-size: 18px;
+}
+
+#container .buttons{
+	width: 800px;
+	margin: 0 auto;
+	color: #cccc00;
+	font-family: 'Lato', sans-serif;
+	font-size: 20px;
+    display: inline;
+    list-style-type: none;
+}
+
+#container .buttons ul{
+	list-style-type: none;
+	text-align: center;
+}
+
+#container .buttons ul li { 
+	display: inline; 
+	margin: 0px 20px 0px;
+}
+
+#container .buttons ul li a{
+	text-decoration: none;
+	color: #cccc00;
+}
+
+#container .buttons ul li a:hover{
+	color: #ffffff;
+}
+
+#container .tours ul li a:hover{
+	color: #ffffff;
+} 
+
+#container .tours ul li a{
+	color: #cccc00;
+} 
+
+#container .tours ul li {
+	list-style-type: none;
+	font-size: 16px;
+}
+
+#bandmem ul{
+	list-style-type: none;
+}
+
+.griz {
+	font-family: 'Lato', sans-serif;
+	width: 1000px;
+	font-size: 18px;
+	text-align: center;
+	margin-bottom: 10px;
+	letter-spacing: 1px;
+}
+
+.content {
+	font-family: 'Lato', sans-serif;
+	width: 600px;
+	margin: 0px auto;
+	font-size: 18px;
+	text-align: left;
+}
+
